@@ -1,4 +1,5 @@
-\documentclass[sigconf, authordraft]{acmart}
+# \documentclass[sigconf authordraft]{acmart}
+\documentclass[sigconf authordraft]{acmart}
 
 \usepackage{booktabs} % For formal tables
 
@@ -12,9 +13,7 @@
 %\setcopyright{cagov}
 %\setcopyright{cagovmixed}
 
-
 %Conference
-\acmConference[SIGCSE 2019]{SIGCSE 2018}{Feb 2019}{place}
 \acmYear{2019}
 \copyrightyear{2019}
 
@@ -24,20 +23,21 @@
 \author{R. Pito Salas}
 \affiliation{%
   \institution{Brandeis University}
-  \streetaddress{200 South Street.}
+  \streetaddress{415 South Street.}
   \city{Waltham}
   \state{Massachusetts}
-  \postcode{12345}
+  \postcode{02453}
 }
 \email{pitosalas@brandeis.edu}
 
 \begin{abstract}
-This paper explores a novel structure for a course, which we call ``Multi-Semester, Multi-Cohort”. The course structure is framed around a long-term goal or objective, across multiple semesters and with different groups of students. We know that the objective is challenging enough that it will take more than one semester to achieve. As a result, the students working on the project will be different every semester. While this model can be applied in a variety of applied disciplines, the course in this instance is in Robotics. This model has some very interesting benefits but raises unique challenges. Our experience with the ``Autonomous Robotics Lab" covers two completed semesters, and one about to begin. In this paper we will explain our motivation for using this structure, details of the curriculum and pedagogical approach to it including assessment, the type and effectiveness of the scaffolding that was created, and report on our experience including what went well and what we need to improve.
+\input{rpsabstract.tex}
 \end{abstract}
 \keywords{CS education, course design, projects, teams, robotics}
 
+\maketitle
 \input{rpsbody.tex}
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{sample-bibliography}
+\bibliography{bibliography.bib}
 
 \end{document}
