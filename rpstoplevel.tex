@@ -1,6 +1,7 @@
-\documentclass[sigconf authordraft]{acmart}
+\documentclass[sigconf]{acmart}
 %\documentclass[sigconf authordraft]{acmart}
-\usepackage{tabularx,ragged2e,booktabs,tabulary}
+\usepackage{tabularx,float, ragged2e,booktabs,tabulary}
+\usepackage[normal]{threeparttable}
 
 % Copyright
 %\setcopyright{none}
@@ -11,6 +12,7 @@
 %\setcopyright{usgovmixed}
 %\setcopyright{cagov}
 %\setcopyright{cagovmixed}
+
 
 %Conference
 \acmYear{2019}
@@ -33,10 +35,16 @@
 \input{rpsabstract.tex}
 \end{abstract}
 \keywords{CS education, course design, projects, teams, robotics}
-
 \maketitle
-\input{rpsbody.tex}
+
+\input{rpsintro.tex}
+\input{rpslitrev.tex}
+\input{rpsthecourse.tex}
+\input{rpschallenges.tex}
+\input{rpsprogress.tex}
+\input{rpsacknowledge.tex}
+
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{bibliography.bib}
+\bibliography{bibmendeley.bib}
 
 \end{document}
